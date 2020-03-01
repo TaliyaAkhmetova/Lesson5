@@ -10,6 +10,7 @@ public class Main {
         for (Person person: persArray){
             if (person.getAge()>40) {
                 person.fullInfo();
+                System.out.println("Mission complited");
             }
         }
     }
